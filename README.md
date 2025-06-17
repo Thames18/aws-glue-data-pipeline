@@ -27,10 +27,26 @@ This project demonstrates a simple serverless ETL workflow using AWS S3, AWS Glu
   - `AWS_REGION`
   - `GLUE_JOB_NAME`
 
-## Setup
+## Project Structure
+
+aws-glue-data-pipeline/
+│
+├── src/
+│   └── glue_job.py               # AWS Glue ETL script
+│
+├──workflows/
+│  └── deploy_glue.yml       # GitHub Actions workflow
+│
+├── data/
+│   └── sample_data.csv           # Sample input data 
+│
+└──README.md                     # Project overview and instructions
+
+## Setup 
 
 ```bash
 # Trigger GitHub Action by pushing changes
 git add .
 git commit -m "trigger glue job"
 git push origin main
+
