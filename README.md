@@ -1,6 +1,5 @@
 # aws-glue-data-pipeline
 
-**Project Description
 This project demonstrates a simple serverless ETL workflow using AWS S3, AWS Glue (PySpark), and GitHub Actions for automation.
 
 ## Workflow Overview
